@@ -4,4 +4,12 @@
 
 </div>
 
-![main page](image.png)
+RU
+==
+
+![ru main page](image_ru.png)
+
+EN
+==
+![en main page](image_en.png)
+
