@@ -31,3 +31,9 @@ If you run the site locally, then</p>
 
 `http://127.0.0.1:8000`
 
+Else:
+
+install <a href ='https://ngrok.com'>ngrok<a>
+
+Open `ngrok.exe` and write `ngrok http 8000`
+
