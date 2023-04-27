@@ -78,11 +78,8 @@ div { float: left; /*Задаем обтекание*/
 	top: 50px;
 	margin-top: 10px; 
 	width: 350px; /*Фиксируем ширину блока*/ 
-	margin-right: 10px; text-align: center; /*Центрируем текст по горизонтали*/ }
-
-
-
-
+	margin-right: 10px; text-align: center; /*Центрируем текст по горизонтали*/ 
+}
 
 
 .name{
@@ -91,12 +88,10 @@ font-family: 'Oswald', sans-serif;
 color: rgb(100, 197, 170);
 font-size: 250px;
 padding: 10;
-/* margin-left: 100px; */
+margin-left: 0px;
 position: relative;
 top: 170px; 
 left: 30px;
-
-
 }
 
 
@@ -112,41 +107,46 @@ left: 30px;
 	<div id = 'line_block' ; class="link-ease-in-out">
 		<center>
 			
-			<p class="a" ><a href="https://vk.com/thecommonwealth2020" style="text-decoration: none" title="">VKontakte</a></p>
+			<p class="a" ><a href="https://vk.com/thecommonwealth2020" style="text-decoration: none" title="">Вконтакте</a></p>
 		</center>
 	</div>
 
 	<div id = 'line_block' ;class="link-ease-in-out">
 		<center>
-			<p class="a" ><a href="https://vk.com/away.php?to=https%3A%2F%2Ft.me%2Fthecommonwealth2022" style="text-decoration: none" title="">Telegram</a></p>
+			<p class="a" ><a href="https://vk.com/away.php?to=https%3A%2F%2Ft.me%2Fthecommonwealth2022" style="text-decoration: none" title="">Телеграм</a></p>
 		</center>
 	</div>
 
 	<div id = 'line_block' ; class="link-ease-in-out">
 		<center>
-			<p class="a" ><a href="https://vk.com/doc403210316_657773170?hash=wL0PIuCs5GU5CWq1g2cpODL01ziPSK0aZ8wXuO3jCmL&dl=Pas0Gzpci3aZ41tzhZUllpA1JWtojf3jLxAnbo5zCZg" style="text-decoration: none" title="">Charter</a></p>
+			<p class="a" ><a href="https://vk.com/doc403210316_657773170?hash=wL0PIuCs5GU5CWq1g2cpODL01ziPSK0aZ8wXuO3jCmL&dl=Pas0Gzpci3aZ41tzhZUllpA1JWtojf3jLxAnbo5zCZg" style="text-decoration: none" title="">Устав</a></p>
 		</center>
 	</div>
 
 	<div id = 'line_block' ; class="link-ease-in-out">
 		<center>
-			<p class="a" ><a href="https://vk.com/app5619682_-194667570" style="text-decoration: none" title="">Join</a></p>
+			<p class="a" ><a href="https://vk.com/app5619682_-194667570" style="text-decoration: none" title="">Вступить</a></p>
 		</center>
 	</div>
 
 
 	<div id = 'line_block' ; class="link-ease-in-out">
 		<center>
-			<p class="a" ><a href="https://vk.com/app5727453_-194667570?ref=group_menu" style="text-decoration: none" title="">Donate</a></p>
+			<p class="a" ><a href="https://vk.com/app5727453_-194667570?ref=group_menu" style="text-decoration: none" title="">Поддержать</a></p>
 		</center>
 	</div>
 
+	<br>
 
-<p><span class="name" ><b>The Commonwealth</b></span></p>
+
+<span class="name" ><b>The Commonwealth</b></span>
+
 
 
  </body>
 </html>
+
+
 
 	"""
 	return HTMLResponse(content=html_content, status_code=200)
