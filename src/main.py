@@ -81,7 +81,6 @@ div { float: left; /*Задаем обтекание*/
 	margin-right: 10px; text-align: center; /*Центрируем текст по горизонтали*/ 
 }
 
-
 .name{
 font-family: 'Dela Gothic One', cursive;
 font-family: 'Oswald', sans-serif;
@@ -93,10 +92,8 @@ position: relative;
 top: 170px; 
 left: 30px;
 }
-
-
-
 </style>
+
 <head>
  	<title>The Commonwealth</title>
 
