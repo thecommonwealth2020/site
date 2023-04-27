@@ -27,13 +27,25 @@ HOW TO START
 
 <p>3. Open site
 
-If you run the site locally, then</p>
+Site locally:
+--
 
 `http://127.0.0.1:8000`
 
-Else:
+Go to this address in the browser
+
+
+
+
+Public site (using `ngrok`)
+--
 
 install <a href ='https://ngrok.com'>ngrok<a>
 
 Open `ngrok.exe` and write `ngrok http 8000`
+
+Result:
+
+![image](https://user-images.githubusercontent.com/79650307/234985399-a6db0f48-5ca5-4a00-b0d0-afe412c3008c.png)
+
 
