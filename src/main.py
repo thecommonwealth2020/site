@@ -110,7 +110,7 @@ left: 30px;
 
 	<div id = 'line_block' ;class="link-ease-in-out">
 		<center>
-			<p class="a" ><a href="https://vk.com/away.php?to=https%3A%2F%2Ft.me%2Fthecommonwealth2022" style="text-decoration: none" title="">Телеграм</a></p>
+			<p class="a" ><a href="https://t.me/thecommonwealth2022" style="text-decoration: none" title="">Телеграм</a></p>
 		</center>
 	</div>
 
