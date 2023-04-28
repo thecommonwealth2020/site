@@ -48,4 +48,7 @@ Result:
 
 ![image](https://user-images.githubusercontent.com/79650307/234985399-a6db0f48-5ca5-4a00-b0d0-afe412c3008c.png)
 
+P.S.
+This repository uses `github pages`
+
 
