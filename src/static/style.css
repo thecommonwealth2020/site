@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+}
+
+ body{
+    background-image: url("logo1.png");
+    background-size:100%;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(100, 197, 170);
+}
+
+.main-text{
+    position: absolute;
+    top:22rem;
+    left: 8rem;
+    font-size: 10rem;
+    letter-spacing: 0.3rem;
+
+}
+
+.links-container{
+    color: rgb(100, 197, 170);
+    font-size: 2.5rem;
+    position: absolute;
+    top: 1.5rem;
+}
+
+.vk{
+    position: absolute;
+    left: 4rem;
+}
+
+.telegram{
+    position: absolute;
+    left: 29rem;
+}
+
+.charter{
+    position: absolute;
+    left: 55rem;
+}
+
+.join{
+    position: absolute;
+    left: 80rem;
+}
+
+.donate{
+    position: absolute;
+    left: 100rem;
+}
+
+.mail{
+    position: absolute;
+    top: 55rem;
+    left: 8rem;
+    transform: translate(-50%, -50%);
+    background: url('mail.png');
+    background-size: cover;
+    scale: 1.4; 
+}
+
+.decoration:active {
+    color:rgb(100, 197, 170) ; 
+}
+
+.decoration {
+    color:rgb(100, 197, 170) ;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+}
+
+.decoration::after { 
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    display: block;
+    background: none repeat scroll 0 0 transparent;
+    height: 2px;
+    width: 0;
+    background:rgb(100, 197, 170);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+}
+
+.decoration:hover::after { 
+    width: 100%; 
+    left: 0; 
+}
+
+.without-decoration{
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+}
