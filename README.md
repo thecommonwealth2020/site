@@ -24,7 +24,7 @@ pip install -r requirements.txt
 
 4. Launch website
 ```bash
-flask --app app run
+python3 app.py
 ```
 
 5. Copy and paste in your browser:
